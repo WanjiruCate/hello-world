@@ -1,0 +1,44 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class Employee
+{
+private:
+string name;
+string gender;
+string department; 
+public:
+string getname(na);
+string getgender(ge);
+string getdepartment(dp);
+void display();
+Employee();
+Employee(na,ge,dp);
+};
+string Employee::getname(na)
+{
+return name;
+}
+string Employee::getgender(ge)
+{
+return gender;
+}
+string Employee::getdepartment(dp)
+{
+return department; 
+}
+string Employee::display ()
+{
+cout <<"Name:"<<name <<endl;
+cout <<"Gender"<<gender <<endl;
+cout <<"Department"<<department <<endl;
+}
+Employee::Employee()
+{
+};
+Employee::Employee(string na, string ge, string dp)
+{
+name=na;
+gender=ge;
+department=dp;
+}
