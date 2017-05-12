@@ -30,6 +30,7 @@ string Employee::getdepartment(dp)
 {
 return department; 
 }
+
 string Employee::display ()
 {
 cout <<"Name:"<<name <<endl;
@@ -39,6 +40,13 @@ cout <<"Department"<<department <<endl;
 Employee::Employee()
 {
 };
+/**
+* Universal Constructor for the Employees Entity class.
+* 
+*@param employeeName -String
+*@param employeeGender -String
+*@param employeeDepertment -String
+*/
 Employee::Employee(string employeeName, string employeeGender, string employeeDepertment)
 {
 name=employeeName;
