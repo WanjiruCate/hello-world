@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
+/**
+*This is class is an entity class for employee Object. Users of this API use the instance for employee records processing.
+*/
 class Employee
 {
 private:
@@ -36,9 +39,9 @@ cout <<"Department"<<department <<endl;
 Employee::Employee()
 {
 };
-Employee::Employee(string na, string ge, string dp)
+Employee::Employee(string employeeName, string employeeGender, string employeeDepertment)
 {
-name=na;
-gender=ge;
-department=dp;
+name=employeeName;
+gender=employeeGender;
+department=employeeDepertment;
 }
